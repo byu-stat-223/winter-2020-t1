@@ -1,0 +1,12 @@
+---
+title: "Practice Final Solutions"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
++ [Fishing](exam2_fishing_sol.R)
++ [Tommy John](exam2_tj_sol.R)
++ [Bootstrapped Coverage](exam2_bs_coverage_sol.R)

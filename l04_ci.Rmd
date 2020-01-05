@@ -1,0 +1,179 @@
+---
+title: "Confidence Intervals"
+output: html_notebook
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = TRUE)
+```
+
+> More strictly speaking, the confidence level represents the frequency (i.e. the 
+proportion) of possible confidence intervals that contain the true value of the 
+unknown population parameter. In other words, if confidence intervals are constructed
+using a given confidence level from an infinite number of independent sample 
+statistics, the proportion of those intervals that contain the true value of the 
+parameter will be equal to the confidence level.
+
+\- [Wikipedia](https://en.wikipedia.org/wiki/Confidence_interval)
+
+---
+
+Create a function to compute a confidence interval assuming the population is
+normally distributed. By default, `sd = NA` and `confidence_level = 0.95`. The
+function will take a numeric vector `x` and produce a 95% confidence interval
+using a t-table value (since the population standard deviation is missing) with
+degrees of freedom equal to the length of `x` - 1.
+
+When the population standard deviation is known and supplied, the calculation will
+be based on a standard normal table value.
+
+```{r}
+confidence_interval <- function(x, sd = NA, confidence_level = 0.95) {
+  alpha <- 1 - confidence_level
+  if (!is.na(sd)) {
+    table_value <- qnorm(alpha/2, lower.tail = FALSE)
+  } else {
+    table_value <- qt(alpha/2, df = length(x) - 1, lower.tail = FALSE)
+    sd <- sd(x)
+  }
+  ci <- mean(x) + c(-1, 1) * table_value * sd / sqrt(length(x))
+  names(ci) <- c("Lower Bound", "Upper Bound")
+  ci
+}
+```
+
+Now, let's calculate some confidence intervals on known distributions.
+
+```{r}
+n <- 5
+true_mean <- 0
+
+# Define the population - drawing from a standard normal distribution
+data <- rnorm(n, true_mean, 1)
+data
+```
+
+```{r}
+interval <- confidence_interval(data)
+interval
+```
+
+This is our confidence interval for the mean of the simulated data we just created. We can check to see if this interval includes the `true_mean`.
+
+```{r}
+interval[1] < true_mean && true_mean < interval[2]
+```
+
+Now, let's run it again!
+
+```{r}
+data <- rnorm(n, true_mean, 1)
+data
+
+interval <- confidence_interval(data)
+interval
+```
+
+Why are these confidence intervals different?
+
+### Simulation
+Now we'll simulate thousands of confidence intervals!
+
+```{r}
+n_reps <- 10000
+```
+
+
+#### For Loop
+```{r}
+contains <- numeric(n_reps)
+intervals <- matrix(NA, nrow = n_reps, ncol = 2)
+for (i in 1:n_reps) {
+  data <- rnorm(n, true_mean, 1)
+  interval <- confidence_interval(data)
+  intervals[i,] <- interval
+  contains[i] <- interval[1] < true_mean && true_mean < interval[2]
+}
+
+coverage <- mean(contains)
+coverage
+```
+
+#### Replicate
+```{r}
+intervals <- replicate(n_reps, {
+  data <- rnorm(n, true_mean, 1)
+  confidence_interval(data)
+})
+
+contains <- apply(intervals, 2, prod) < 0
+
+coverage <- mean(contains)
+coverage
+```
+
+#### Tidyverse
+```{r}
+library(tidyverse)
+
+intervals <- rerun(n_reps, confidence_interval(rnorm(n, true_mean)))
+
+contains <- map_lgl(intervals, ~prod(.) < 0)
+
+coverage <- mean(contains)
+coverage
+```
+
+
+Look at that! Close to .95 - illustrating exactly what the definition of a confidence interval refers to. Now, since we arrived at this calculation via a simulation, we can put a confidence interval on our coverage estimate for confidence intervals. Now, note that in this case we're creating a confidence interval for a proportion:
+
+$$
+p \pm Z_\alpha \sqrt{\frac{p(1-p)}{N}}
+$$
+
+```{r}
+coverage + c(-1, 1) * qnorm(0.975) * sqrt(coverage * (1 - coverage)/n_reps)
+```
+
+Now let's get some visual intuition behind this:
+```{r}
+intervals_df <- map_df(intervals, ~tibble(lower = .["Lower Bound"], upper = .["Upper Bound"])) %>% 
+  mutate(index = 1:n(),
+         includes = lower <= true_mean & upper >= true_mean)
+```
+
+```{r, fig.height=6, fig.width=4}
+ggplot(head(intervals_df, 100), aes(x = lower, xend = upper, y = index, yend = index)) +
+  geom_segment(lineend = "butt", aes(col = includes), show.legend = FALSE, lwd = 2) +
+  geom_vline(xintercept = true_mean, col = "red", lwd = 1.5) +
+  theme_bw() +
+  labs(title = "Confidence Interval Coverage",
+       x = "", 
+       y = "")
+```
+
+
+
+### Expand the simulation
+```{r}
+simulate <- function(ci_function, truth = 0, n_reps = 10000) {
+  # ci_function returns a confidence interval for a given set of data
+  cov <- apply(replicate(n_reps, ci_function() - truth), 2, prod) < 0
+  coverage <- mean(cov)
+  # Confidence interval for proportion
+  coverage + c(-1, 1) * qnorm(0.975) * sqrt(coverage * (1 - coverage)/n_reps)
+}
+```
+
+```{r}
+simulate(function() confidence_interval(rnorm(5), sd = 1))
+simulate(function() confidence_interval(rnorm(5, sd = 1)))
+simulate(function() confidence_interval(rnorm(5, sd = 1), sd = 1.5))
+```
+
+```{r}
+sapply(c(5, 10, 50, 100, 1000), function(n_observations) {
+  simulate(function() confidence_interval(rnorm(n_observations)))
+})
+```
+

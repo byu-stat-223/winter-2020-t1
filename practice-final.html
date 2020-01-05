@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Practice Final</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Stat 223</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    Home
+  </a>
+</li>
+<li>
+  <a href="syllabus.html">Syllabus</a>
+</li>
+<li>
+  <a href="notes.html">Notes</a>
+</li>
+<li>
+  <a href="assignments.html">Assignments</a>
+</li>
+<li>
+  <a href="resources.html">Resources</a>
+</li>
+<li>
+  <a href="about.html">About</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Practice Final</h1>
+
+</div>
+
+
+<div id="fishing-50-points" class="section level2">
+<h2>Fishing (50 points)</h2>
+<p>My Grandpa Jasperson (Grandpa J as I’ve always known him) is an avid fisherman, and he’s passed that love along to me. We both agree that <a href="http://www.utahfishinginfo.com/utahlakes/uintas/mirrorlake.php">Mirror Lake</a> and <a href="http://www.utahfishinginfo.com/utahlakes/strawberry.php">Strawberry Reservoir</a> are two of the best places in Utah to go fishing. However, we weren’t certain which place was the best. This past year, we decided to perform a little experiment. We went fishing 20 times over the summer, and each time we went, one of us went to Mirror Like while the other went to Strawberry. We counted the number of fish we caught each trip, and now we’d like to know which is the better fishing spot.</p>
+<p><img src="grandpa-j.jpeg" /></p>
+<ol style="list-style-type: decimal">
+<li>Using the data provided in <a href="fishing.csv"><code>fishing.csv</code></a>, calculate the observed difference in medians between the two fishing locations (5 points).</li>
+<li>Using bootstrap sampling with 10,000 samples, calculate a 95% confidence interval on the observed difference in medians (15 points).</li>
+<li>Based on your results, which fishing spot is the best (5 points)?</li>
+<li>Based on bootstrap sampling, who is the better fisherman (25 points)?</li>
+</ol>
+</div>
+<div id="tommy-john-30-points" class="section level2">
+<h2>Tommy John (30 points)</h2>
+<p>You work in the front office of a professional baseball team. You are faced with the task of deciding whether to sign a pitcher who recently underwent <a href="https://en.wikipedia.org/wiki/Ulnar_collateral_ligament_reconstruction">Tommy John</a> surgery. Because your team values strikeouts, you wish to perform a study on the impact of Tommy John surgery on the Strikeout per 9 inning (k/9) statistic of a pitcher. You have the k/9 statistic both 2 years before surgery and 2 years after surgery for 15 pitchers.</p>
+<p>Perform a a permutation test under the null hypothesis that Tommy John surgery has no effect on a pitcher’s strikeout statistics and the alternative hypothesis that having the surgery makes pitchers worse.</p>
+<p><span class="math display">\[
+H_0 = \text{k9}_{pre} = \text{k9}_{post}\\
+H_a = \text{k9}_{pre} &gt; \text{k9}_{post}
+\]</span></p>
+<p>Use the mean difference in k/9 as your test statistic.</p>
+<ol style="list-style-type: decimal">
+<li>Using the data provided in <a href="tj.csv"><code>tj.csv</code></a>, calculate the observed test statistic (5 points).</li>
+<li>Perform a permutation test with 10,000 repetitions and store the results in a vector (10 points).</li>
+<li>Plot a histogram of your results from step 2 with a vertical red line that represents the result from part 1 (5 points).</li>
+<li>Calculate the P value for the observed test statistic and its 95% confidence interval (5 points).</li>
+<li>Based on your results, is it worth it to sign a pitcher coming off of Tommy John surgery (5 points)?</li>
+</ol>
+</div>
+<div id="bootstrapped-coverage-40-points" class="section level2">
+<h2>Bootstrapped Coverage (40 points)</h2>
+<p>The <code>USArrests</code> data built into R contains arrest statistics for each of the 50 US states in 1973. In this problem, we’re interested in looking at the <code>Assault</code> column, which can be extracted with the following code:</p>
+<pre class="r"><code>assault &lt;- USArrests$Assault</code></pre>
+<p>We’re going to treat these 50 observations as the population. The population mean can be calculated with <code>mean(assault)</code> and is 170.76. We want to determine the coverage of a 90% bootstrapped confidence interval built on a random sample of 10 observations from the <code>assault</code> data.</p>
+<ol style="list-style-type: decimal">
+<li>Create a function that takes in a vector (<code>p</code>) and returns a 90% bootstrapped confidence interval on the mean using a random sample of size 10 taken from the vector <code>p</code>. Use 1,000 bootstrap samples (10 points). This function should do two things:
+<ol style="list-style-type: decimal">
+<li>Sample 10 random values from <code>p</code>.</li>
+<li>Using those 10 random values, calculate and return a 90% bootstrapped confidence interval on the mean of <code>p</code>.</li>
+</ol></li>
+<li>Using the function defined above, calculate 5,000 bootstrapped confidence intervals and store the results (10 points).</li>
+<li>Using the results from step 2, calculate the coverage of the bootstrapped confidence interval (5 points).</li>
+<li>Calculate a 95% confidence interval on your estimate of coverage (5 points).</li>
+<li>Interpret your results. If coverage is not what you would expect, what could be done differently to improve the results (10 points)?</li>
+</ol>
+<div id="make-sure-you-commit-your-changes-to-git-and-push-to-github" class="section level4">
+<h4><strong>Make sure you commit your changes to git and push to GitHub</strong></h4>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

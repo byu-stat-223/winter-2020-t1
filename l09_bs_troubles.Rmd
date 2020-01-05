@@ -1,0 +1,93 @@
+---
+title: "Bootstrap Troubles"
+output: html_notebook
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(cache = TRUE)
+```
+
+By now, we realize that the bootstrap is a powerful and flexible method. However,
+it does have downsides, specifically when estimating values in the extremes. For
+example, consider 1000 samples drawn from a uniform distribution between 0 and 2.
+
+```{r}
+theta <- 2
+x <- runif(1000, min = 0, max = theta)
+```
+
+```{r}
+hist(x)
+```
+
+
+Given these samples, we'd like to estimate `theta`.
+
+```{r}
+(theta_est <- max(x))
+```
+
+
+```{r}
+max(sample(x, replace = TRUE))
+```
+
+
+```{r}
+n_samples <- 10000
+bs_theta <- replicate(n_samples, max(sample(x, replace = TRUE)))
+```
+
+```{r}
+hist(bs_theta)
+```
+
+What do we notice about the distribution of our estimates of `theta`?
+
+```{r}
+max(x)
+```
+
+```{r}
+max(bs_theta)
+```
+
+Let's build a confidence interval around our estimate of `theta`.
+
+```{r}
+quantile(bs_theta, c(0.025, 0.975))
+```
+
+Oh no!! Our confidence interval *does not* include the true value. Why?
+
+What happens when our original sample size is very small?
+```{r}
+future::plan("multiprocess")
+
+bootstrap_ci <- function(x, f, alpha = 0.05, n_samples = 1000) {
+  bs_out <- replicate(n_samples, f(sample(x, replace = TRUE)))
+  quantile(bs_out, c(alpha/2, 1 - alpha/2))
+}
+
+bootstrap_coverage <- function(truth, ci_f, n_reps = 1000) {
+  bootstrap_cis <- furrr::future_map(1:n_reps, function(x) ci_f())
+  coverage <- mean(purrr::map_lgl(bootstrap_cis, ~prod(. - truth) < 0))
+  coverage_ci <- coverage + c(-1, 1)*qnorm(0.975)*sqrt(coverage*(1 - coverage)/n_reps)
+  c(lower = coverage_ci[1],
+    coverage = coverage,
+    upper = coverage_ci[2])
+}
+```
+
+```{r}
+bootstrap_coverage(truth = 0, ci_f = function() bootstrap_ci(rnorm(50), mean))
+```
+
+
+```{r}
+n <- c(2, 3, 5, 7, 10, 15, 30, 75, 100)
+
+(coverage_results <- lapply(n, function(n) bootstrap_coverage(truth = 0, ci_f = function() bootstrap_ci(rnorm(n), mean, n_samples = 5000))))
+```
+
+

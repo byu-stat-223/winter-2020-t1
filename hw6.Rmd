@@ -1,0 +1,28 @@
+---
+title: "Homework 6"
+date: "Due 2019-02-25 at 11:59pm"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
++ Follow [this link](https://classroom.github.com/a/aP78tuJm) to create your 
+repository for homework 6.
+
++ Once your repository is created, create a new RStudio project based on that
+repository.
+
+## ACT
+You are trying to decide between two ACT prep classes. Class 1 begins with a
+general overview followed by an extensive number of practice exams. Class 2
+covers each topic in depth with practice questions arranged by topic. Sample
+data for each class is available in the file `act.txt` in your repository. You 
+can read this data into R using `read.table("act.txt", header = TRUE)`. Based
+on a permutation test with 10,000 replications, does Class 1 increase ACT scores
+on average? Answer the same question for Class 2?  Write a script named `act.R`
+or `act.Rmd` to address these questions. Underneath your code, write a conclusion 
+as to which class (or, neither class) you would recommend. Justify your answers.
+
+#### **Make sure you commit your changes to git and push to GitHub**

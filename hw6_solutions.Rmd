@@ -1,0 +1,11 @@
+---
+title: "Homework 6 Solutions"
+date: "Due 2018-12-13 at 11:59pm"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
++ [ACT](hw6_act_sol.R)

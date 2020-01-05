@@ -1,0 +1,12 @@
+---
+title: "Exam 1 Solutions"
+date: "Due 2019-02-06 at 11:59pm"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
++ [Orchard](exam1_orchard_sol.R)
++ [Spinner](exam1_spinner_sol.R)

@@ -1,0 +1,11 @@
+---
+title: "Practice Midterm Solutions"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
++ [Late](exam1_late_sol.R)
++ [Bikes](exam1_bikes_sol.R)
