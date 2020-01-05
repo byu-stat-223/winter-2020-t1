@@ -65,7 +65,6 @@ less than the promised blessings.*
 + Installing R and RStudio
   + [R](https://cran.r-project.org/){target="_blank}
   + [RStudio](https://www.rstudio.com/products/rstudio/download/#download){target="_blank}
--->
 
 #### 2019-12-09
 
@@ -335,8 +334,9 @@ in both perfect love and perfect humility. His brilliance is not the
 + [Flipping coins](https://rstudio.cloud/spaces/36306/project/642820){target="_blank"}
 (`02/l02_coins.Rmd`)
 + [Homework 2](https://rstudio.cloud/spaces/36306/project/659054){target="_blank"} is assigned (due 2019-11-04 at 11:59 pm)
+-->
 
-#### 2019-10-23
+#### 2020-01-06
 
 *He felt all that was sad, wicked, or bad,
 All the pain we would ever know.
@@ -347,8 +347,14 @@ So He went willingly to Gethsemane.*
 
 \- Melanie Hoffman ([Gethsemane](https://www.lds.org/friend/2018/03/gethsemane?lang=eng){target="_blank"})
 
-<iframe src="https://drive.google.com/file/d/1taaVT314zHfDV_7uCaOEJGN9xIYuSnhk/preview" width="640" height="480"></iframe>
-
-+ Please read through the [Course Syllabus](syllabus.html)
-+ Please setup an account and login to [RStudio Cloud](https://rstudio.cloud/spaces/36306/join?access_code=lISYIpSfHOTpZuOcCrdybKFeJwClyi%2FC%2BtYmuyGE){target="_blank"}. If you use this link, it will automatically add you to the workspace for our class.
-+ Take a look at and get started with [Homework 1](https://rstudio.cloud/spaces/36306/project/642824){target="_blank"}
++ About me
++ [Course Syllabus](syllabus.html)
++ Course Schedule
+  + Out of town:
+    + January 27 - 31
+    + February 17 - 24
++ Introduction to [RStudio Cloud](https://rstudio.cloud)
+  + Access the course workspace
+  + All assignments **must** remain in the course workspace in order to be graded
++ Why R is awesome (Stat 123 Review)
++ Homework 1 is assigned
