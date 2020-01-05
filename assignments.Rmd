@@ -3,13 +3,13 @@ title: "Assignments"
 output: html_document
 ---
 
-#### [Homework 1](https://rstudio.cloud/spaces/36306/project/642824){target="_blank"} | *Due 2019-10-30 at 11:59pm* | [Solution](https://rstudio.cloud/spaces/36306/project/668101){target="_blank"}
-#### [Homework 2](https://rstudio.cloud/spaces/36306/project/659054){target="_blank"} | *Due 2019-11-04 at 11:59pm* | [Solution](https://rstudio.cloud/spaces/36306/project/707563){target="_blank"}
-#### [Homework 3](https://rstudio.cloud/spaces/36306/project/664603){target="_blank"} | *Due 2019-11-11 at 11:59pm* | [Solution](https://rstudio.cloud/spaces/36306/project/728379){target="_blank"}
-#### [Midterm Exam](https://rstudio.cloud/spaces/36306/project/728374){target="_blank"} | *Due 2019-11-20 at 11:59pm* | [Solution](https://rstudio.cloud/spaces/36306/project/773587){target="_blank"}
-#### [Homework 4](https://rstudio.cloud/spaces/36306/project/664614){target="_blank"} | *Due 2019-11-25 at 11:59pm* | [Solution](https://rstudio.cloud/spaces/36306/project/773604){target="_blank"}
-#### [Homework 5](https://rstudio.cloud/spaces/36306/project/664618){target="_blank"} | *Due 2019-12-09 at 6:30pm* | [Solution](https://rstudio.cloud/spaces/36306/project/785585){target="_blank"}
-#### [Final Exam](https://rstudio.cloud/spaces/36306/project/785581){target="_blank"} | *Due 2019-12-11 at 11:59pm*
+#### Homework 1 | *Due 2020-01-13 at 11:59pm* 
+#### Homework 2 | *Due 2020-01-21 at 11:59pm* 
+#### Homework 3 | *Due 2020-01-27 at 6:30pm* 
+#### Midterm Exam | *Due 2020-01-29 at 11:59pm*
+#### Homework 4 *Due 2020-02-10 at 11:59pm* 
+#### Homework 5 *Due 2020-02-18 at 6:30pm* 
+#### Final Exam | *Due 2020-02-26 at 11:59pm*
 
 ---
 <details>
