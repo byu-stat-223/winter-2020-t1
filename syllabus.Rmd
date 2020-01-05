@@ -1,6 +1,6 @@
 ---
 title: "Syllabus"
-subtitle: "Stat 223, Fall 2019"
+subtitle: "Stat 223, Winter 2020"
 author: "James Blair"
 output: html_document
 ---
@@ -79,35 +79,16 @@ within that time frame.
 
 ## Teaching Assistants
 
-* Adam Ott | [adderotter@hotmail.com](mailto:adderotter@hotmail.com)
-  * Office Hours (235 TMCB)
-      - Monday 9:00-11:00 am
-      - Wednesday 9:00-11:00 am
-    
-* Dallin Biorn | [biorndallin@gmail.com](mailto:biorndallin@gmail.com)
-  * Office Hours (235 TMCB)
-      - Monday 12:30-1:30 pm
-      - Tuesday 12:00-1:00 pm
-      - Wednesday 12:30-1:30 pm
-
-* Jungeol Kim | [ldskimjg@gmail.com](mailto:ldskimjg@gmail.com)
-  * Office Hours (235 TMCB)
-    - Monday 9:30-11:50 am
-    - Wednesday 9:30-11:50 am
-    - Friday 9:00-10:00 am; 10:30-11:50 am
-    
 * Matthew Morgan | [matt4byu@gmail.com](mailto:matt4byu@gmail.com)
-  * Office Hours (235 TMCB)
-    - Monday 8:00-8:50 am
-    - Tuesday 8:00-9:00 am
-    - Wednesday 8:00-8:50 am
-    - Thursday 8:00-9:00 am
-    - Friday 8:00-8:50 am
+* Joe Cosby | [josephcoz@gmail.com](mailto:josephcoz@gmail.com)
+* Skyler Gray | [skylerg022@gmail.com](mailto:skylerg022@gmail.com)
+* Daniel Tolley | [dtolley1997@gmail.com](mailto:dtolley1997@gmail.com)
 
 ## Office Hours
 
-My office is 204 TMCB. I will hold office hours on Mondays from 1:00-1:30 pm and 
-Wednesdays from 2:30-3:00 pm.
+My office is 204 TMCB (Don't be thrown off by the fact that the name on the
+office says Jared Ward - we share an office). I will hold office hours on
+Mondays from 1:00-1:30 pm and Wednesdays from 2:30-3:00 pm.
 
 ## Honor Code
 
