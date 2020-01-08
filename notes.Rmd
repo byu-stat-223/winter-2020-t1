@@ -132,11 +132,11 @@ this lead?"*
   + [RStudio Quickstart](https://www.rstudio.com/products/quickstart/){target="_blank"}
 + Introduction to [Permutation Tests](https://en.wikipedia.org/wiki/Resampling_(statistics)#Permutation_tests){target="_blank"}
 ![](hypothesis-testing.png)
-  + [Brothers](https://rstudio.cloud/spaces/36306/project/642820){target="_blank"}
+  + [Brothers](https://rstudio.cloud/spaces/44710/project/816497){target="_blank"}
 (`10/l10_brothers.Rmd`)
-  + [Faithful](https://rstudio.cloud/spaces/36306/project/642820){target="_blank"}
+  + [Faithful](https://rstudio.cloud/spaces/44710/project/816497){target="_blank"}
 (`10/l10_faithful.Rmd`)
-  + [GPA](https://rstudio.cloud/spaces/36306/project/642820){target="_blank"}
+  + [GPA](https://rstudio.cloud/spaces/44710/project/816497){target="_blank"}
 (`10/l10_gpa.Rmd`)
 + [Homework 5](https://rstudio.cloud/spaces/36306/project/664618){target="_blank"} Assigned (Due 2019-12-09 at 11:59pm)
 
@@ -158,9 +158,9 @@ E09](https://en.wikipedia.org/wiki/The_Good_Place){target="_blank"})
 + R Moment: [goodshirt](https://github.com/adam-gruer/goodshirt){target="_blank"}
 + [Homework 4](https://rstudio.cloud/spaces/36306/project/664614){target="_blank"} Questions
 + Bootstrap Continued
-  + [Bootstrap coverage](https://rstudio.cloud/spaces/36306/project/642820){target="_blank"}
+  + [Bootstrap coverage](https://rstudio.cloud/spaces/44710/project/816497){target="_blank"}
 (`09/l09_bs_coverage.Rmd`)
-  + [Bootstrap troubles](https://rstudio.cloud/spaces/36306/project/642820){target="_blank"}
+  + [Bootstrap troubles](https://rstudio.cloud/spaces/44710/project/816497){target="_blank"}
 (`09/l09_bs_troubles.Rmd`)
 
 
@@ -205,7 +205,7 @@ much more than the rate at which we are moving.*
     + No class Wednesday (2019-11-20)
 + R Moment: [blogdown](https://bookdown.org/yihui/blogdown/){target="_blank"}
   + [rbind.io](https://support.rbind.io/about/)
-+ [Hypothesis Testing](https://rstudio.cloud/spaces/36306/project/642820){target="_blank"} (`05/l05_mean.Rmd`)
++ [Hypothesis Testing](https://rstudio.cloud/spaces/44710/project/816497){target="_blank"} (`05/l05_mean.Rmd`)
 + Introduction to [Bootstrap](https://en.wikipedia.org/wiki/Bootstrapping_(statistics)){target="_blank"}
 
     "Bootstrapping is the practice of estimating properties of an estimator
@@ -213,11 +213,11 @@ much more than the rate at which we are moving.*
     approximating distribution." -
     [Wikipedia](https://en.wikipedia.org/wiki/Bootstrapping_(statistics)){target="_blank"}
 
-  + [Bootstrap confidence interval on mean](https://rstudio.cloud/spaces/36306/project/642820){target="_blank"}
+  + [Bootstrap confidence interval on mean](https://rstudio.cloud/spaces/44710/project/816497){target="_blank"}
 (`08/l08_mean.Rmd`)
-  + [Memory loss](https://rstudio.cloud/spaces/36306/project/642820){target="_blank"}
+  + [Memory loss](https://rstudio.cloud/spaces/44710/project/816497){target="_blank"}
 (`08/l08_memory.Rmd`)
-  + [Confidence interval](https://rstudio.cloud/spaces/36306/project/642820){target="_blank"}
+  + [Confidence interval](https://rstudio.cloud/spaces/44710/project/816497){target="_blank"}
 (`08/l08_ci.Rmd`)
 + [Homework 4](https://rstudio.cloud/spaces/36306/project/664614){target="_blank"} is assigned (due 2019-11-25 at 11:59pm)
 
@@ -240,9 +240,9 @@ is part of our nature—a part of who we are that does not change.*
   
 + R Moment: [Local Interpretable Model-agnostic Explanations (lime)](https://github.com/thomasp85/lime){target="_blank"}
 + [Homework 3](https://rstudio.cloud/spaces/36306/project/664603){target="_blank"} questions
-+ [Simulation study for simple linear regression](https://rstudio.cloud/spaces/36306/project/642820){target="_blank"}
++ [Simulation study for simple linear regression](https://rstudio.cloud/spaces/44710/project/816497){target="_blank"}
 (`06/l06_regression.Rmd`)
-+ [Hypothesis Testing](https://rstudio.cloud/spaces/36306/project/642820){target="_blank"} (`05/l05_mean.Rmd`)
++ [Hypothesis Testing](https://rstudio.cloud/spaces/44710/project/816497){target="_blank"} (`05/l05_mean.Rmd`)
 
 #### 2019-11-06
 
@@ -252,7 +252,7 @@ Stay the course and see the beauty of life unfold for you.*
 \- Jeffrey R. Holland ([BYU Devotional March 2, 1999](https://speeches.byu.edu/talks/jeffrey-r-holland_cast-not-away-therefore-your-confidence/){target="_blank"})
 
 + R Moment: [cheatsheets](https://www.rstudio.com/resources/cheatsheets/){target="_blank"}
-+ [Confidence Intervals](https://rstudio.cloud/spaces/36306/project/642820){target="_blank"}
++ [Confidence Intervals](https://rstudio.cloud/spaces/44710/project/816497){target="_blank"}
 (`04/l04_ci.Rmd`)
 
 #### 2019-11-04
@@ -274,7 +274,7 @@ people in their afflictions.*
 + [Plotting Review](https://rstudio.cloud/spaces/36306/project/669103){target="_blank"}
 + [Simulation Study Outline](sim-study-outline.html)
 + [Costume Party](https://rstudio.cloud/spaces/36306/project/669100){target="_blank"}
-+ [Confidence Intervals](https://rstudio.cloud/spaces/36306/project/642820){target="_blank"}
++ [Confidence Intervals](https://rstudio.cloud/spaces/44710/project/816497){target="_blank"}
 (`04/l04_ci.Rmd`)
 + [Homework 3](https://rstudio.cloud/spaces/36306/project/664603){target="_blank"} is assigned (due 2019-11-11 at 11:59 pm)
 
@@ -292,13 +292,14 @@ to meet them.*
 + R Moment: [Shiny](http://shiny.rstudio.com/){target="_blank"}
 + [Homework 1](https://rstudio.cloud/spaces/36306/project/642824){target="_blank"} questions
 + [Coding Standards](coding-standards.html)
-+ [Assessing uncertainty in simulation studies](https://rstudio.cloud/spaces/36306/project/642820){target="_blank"}
++ [Assessing uncertainty in simulation studies](https://rstudio.cloud/spaces/44710/project/816497){target="_blank"}
 (`03/l03_flipping_coins.Rmd`)
-+  [The Central Limit Theorem](https://rstudio.cloud/spaces/36306/project/642820){target="_blank"}
++  [The Central Limit Theorem](https://rstudio.cloud/spaces/44710/project/816497){target="_blank"}
 (`03/l03_central_limit_theorem.Rmd`)
 + [Homework 2](https://rstudio.cloud/spaces/36306/project/659054){target="_blank"} questions
+-->
 
-#### 2019-10-28
+#### 2020-01-08
 
 *I testify that his intelligence is vastly superior in every field to the very 
 brightest mortals in those fields and that his intellect in scope and truth far 
@@ -309,14 +310,14 @@ in both perfect love and perfect humility. His brilliance is not the
 \- Neal A. Maxwell ([GC April 1976](https://www.lds.org/general-conference/1976/04/jesus-of-nazareth-savior-and-king?lang=eng){target="_blank"})
 
 + Announcements
-  + [Utah County R User Group](https://www.meetup.com/utah-county-rug/){target="_blank"}
   + If you do not have access to course materials / assignments on RStudio
   Cloud, click
-  [here](https://rstudio.cloud/spaces/36306/join?access_code=lISYIpSfHOTpZuOcCrdybKFeJwClyi%2FC%2BtYmuyGE){target="_blank"}.
+  [here](https://rstudio.cloud/spaces/44710/join?access_code=MQkE91b62JJFRv5wQGBBhDWkN9w9904eywo5uDhZ){target="_blank"}.
   If that doesn't work, send me an email and I'll make sure you have the
   appropriate access.
 + R Moment: [Tidyverse](https://www.tidyverse.org/){target="_blank"}
-+ [Homework 1](https://rstudio.cloud/spaces/36306/project/642824){target="_blank"} Questions
++ [Homework 1](https://rstudio.cloud/spaces/44710/project/816498){target="_blank"} Questions
++ [Stat 223 Style Guide](coding-standards.html)
 + Introduction to simulation studies:
   + "Simulation study" and "Monte Carlo study" are synonymous.
   + Represent a real-world process programatically in order to evaluate statistical
@@ -331,10 +332,8 @@ in both perfect love and perfect humility. His brilliance is not the
     + and many others...
   + Especially useful when theoretical derivations are unavailable, difficult, 
     or intractable.
-+ [Flipping coins](https://rstudio.cloud/spaces/36306/project/642820){target="_blank"}
-(`02/l02_coins.Rmd`)
-+ [Homework 2](https://rstudio.cloud/spaces/36306/project/659054){target="_blank"} is assigned (due 2019-11-04 at 11:59 pm)
--->
++ Flipping coins | [`02/l02_coins.Rmd`](https://rstudio.cloud/spaces/44710/project/816497){target="_blank"}
+
 
 #### 2020-01-06
 
