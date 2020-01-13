@@ -285,6 +285,7 @@ to meet them.*
 
 + Announcements:
   + [Homework 1](https://rstudio.cloud/spaces/44710/project/816498){target="_blank"} due today at 11:59pm
+  + CFP National Championship Tonight - root for, LSU?, I guess?
 + R Moment: [Shiny](http://shiny.rstudio.com/){target="_blank"}
 + [Homework 1](https://rstudio.cloud/spaces/44710/project/816498){target="_blank"} questions
 + Assessing uncertainty in simulation studies | [`03/l03_flipping_coins.Rmd`](https://rstudio.cloud/spaces/44710/project/816497){target="_blank"}
