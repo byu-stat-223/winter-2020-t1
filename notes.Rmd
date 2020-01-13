@@ -255,7 +255,7 @@ Stay the course and see the beauty of life unfold for you.*
 + [Confidence Intervals](https://rstudio.cloud/spaces/44710/project/816497){target="_blank"}
 (`04/l04_ci.Rmd`)
 
-#### 2019-11-04
+#### 2020-01-15
 
 *And it came to pass that the voice of the Lord came to them in their
 afflictions, saying: Lift up your heads and be of good comfort, for I know of
@@ -268,17 +268,13 @@ people in their afflictions.*
 
 \- [Mosiah 24:13-14](https://www.lds.org/scriptures/bofm/mosiah/24.13-14?lang=eng){target="_blank"}
 
-+ Announcements:
-  + [Homework 2](https://rstudio.cloud/spaces/36306/project/659054){target="_blank"} is due today at 11:59pm
 + R Moment: [r2d3](https://rstudio.github.io/r2d3/){target="_blank"}
-+ [Plotting Review](https://rstudio.cloud/spaces/36306/project/669103){target="_blank"}
 + [Simulation Study Outline](sim-study-outline.html)
 + [Costume Party](https://rstudio.cloud/spaces/36306/project/669100){target="_blank"}
-+ [Confidence Intervals](https://rstudio.cloud/spaces/44710/project/816497){target="_blank"}
-(`04/l04_ci.Rmd`)
-+ [Homework 3](https://rstudio.cloud/spaces/36306/project/664603){target="_blank"} is assigned (due 2019-11-11 at 11:59 pm)
++ Confidence Intervals | [`04/l04_ci.Rmd`](https://rstudio.cloud/spaces/44710/project/816497){target="_blank"}
+-->
 
-#### 2019-10-30
+#### 2020-01-13
 
 *Yes, you face challenges. But so does every generation. These are our days, and
 we need to be faithful, not faithless. I testify that the Lord knows about our
@@ -288,16 +284,14 @@ to meet them.*
 \- Stephen W. Owen ([GC October 2019](https://www.churchofjesuschrist.org/study/general-conference/2019/10/13owen?lang=eng){target="_blank"})
 
 + Announcements:
-  + [Homework 1](https://rstudio.cloud/spaces/36306/project/642824){target="_blank"} due today at 11:59pm
+  + [Homework 1](https://rstudio.cloud/spaces/44710/project/816498){target="_blank"} due today at 11:59pm
 + R Moment: [Shiny](http://shiny.rstudio.com/){target="_blank"}
-+ [Homework 1](https://rstudio.cloud/spaces/36306/project/642824){target="_blank"} questions
-+ [Coding Standards](coding-standards.html)
-+ [Assessing uncertainty in simulation studies](https://rstudio.cloud/spaces/44710/project/816497){target="_blank"}
-(`03/l03_flipping_coins.Rmd`)
-+  [The Central Limit Theorem](https://rstudio.cloud/spaces/44710/project/816497){target="_blank"}
-(`03/l03_central_limit_theorem.Rmd`)
-+ [Homework 2](https://rstudio.cloud/spaces/36306/project/659054){target="_blank"} questions
--->
++ [Homework 1](https://rstudio.cloud/spaces/44710/project/816498){target="_blank"} questions
++ Assessing uncertainty in simulation studies | [`03/l03_flipping_coins.Rmd`](https://rstudio.cloud/spaces/44710/project/816497){target="_blank"}
++ The Central Limit Theorem | [`03/l03_central_limit_theorem.Rmd`](https://rstudio.cloud/spaces/44710/project/816497){target="_blank"}
++ [Plotting Review](https://rstudio.cloud/spaces/44710/project/816508){target="_blank"}
++ [Homework 2](https://rstudio.cloud/spaces/44710/project/816499){target="_blank"} is assigned (Due 2020-01-21 at 11:59pm)
+
 
 #### 2020-01-08
 
