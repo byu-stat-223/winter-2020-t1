@@ -244,7 +244,7 @@ is part of our nature—a part of who we are that does not change.*
 (`06/l06_regression.Rmd`)
 + [Hypothesis Testing](https://rstudio.cloud/spaces/44710/project/816497){target="_blank"} (`05/l05_mean.Rmd`)
 
-#### 2019-11-06
+#### 2020-01-22
 
 *Face your doubts. Master your fears. “Cast not away therefore your confidence.”
 Stay the course and see the beauty of life unfold for you.*
@@ -254,6 +254,7 @@ Stay the course and see the beauty of life unfold for you.*
 + R Moment: [cheatsheets](https://www.rstudio.com/resources/cheatsheets/){target="_blank"}
 + [Confidence Intervals](https://rstudio.cloud/spaces/44710/project/816497){target="_blank"}
 (`04/l04_ci.Rmd`)
+-->
 
 #### 2020-01-15
 
@@ -270,9 +271,9 @@ people in their afflictions.*
 
 + R Moment: [r2d3](https://rstudio.github.io/r2d3/){target="_blank"}
 + [Simulation Study Outline](sim-study-outline.html)
++ [Plotting Review](https://rstudio.cloud/spaces/44710/project/816508){target="_blank"}
 + [Costume Party](https://rstudio.cloud/spaces/36306/project/669100){target="_blank"}
 + Confidence Intervals | [`04/l04_ci.Rmd`](https://rstudio.cloud/spaces/44710/project/816497){target="_blank"}
--->
 
 #### 2020-01-13
 
