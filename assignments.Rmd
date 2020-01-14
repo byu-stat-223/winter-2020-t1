@@ -18,8 +18,10 @@ output: html_document
 
 1. Login to [RStudio Cloud](https://rstudio.cloud/)
 2. Navigate to the course workspace
-3. Click on the homework assignment
+3. Click on the assignment
 4. Click Start or Continue, whichever appears at the top of the assignment
-5. Look at `README.md` for homework instructions
+5. Look at `README.md` for assignment instructions
 6. Make the needed changes to your project (do not make changes after the due date)
+7. **Make sure you save all changes. Assignments are not considered if there are
+unsaved changes**
 </details>
