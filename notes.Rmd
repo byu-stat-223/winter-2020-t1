@@ -269,10 +269,12 @@ people in their afflictions.*
 
 \- [Mosiah 24:13-14](https://www.lds.org/scriptures/bofm/mosiah/24.13-14?lang=eng){target="_blank"}
 
++ Announcements:
+  + [Assignment Checklist](assignments.html) has been updated
 + R Moment: [r2d3](https://rstudio.github.io/r2d3/){target="_blank"}
 + [Simulation Study Outline](sim-study-outline.html)
 + [Plotting Review](https://rstudio.cloud/spaces/44710/project/816508){target="_blank"}
-+ [Costume Party](https://rstudio.cloud/spaces/36306/project/669100){target="_blank"}
++ [Costume Party](https://rstudio.cloud/spaces/44710/project/816507){target="_blank"}
 + Confidence Intervals | [`04/l04_ci.Rmd`](https://rstudio.cloud/spaces/44710/project/816497){target="_blank"}
 
 #### 2020-01-13
