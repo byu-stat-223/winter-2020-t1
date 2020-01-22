@@ -23,7 +23,7 @@ the results.
 set out to determine.
     - This caculation takes the thousands of values previously calculated and
     condenses them into a single summary value (ie mean, proportion, etc).
-4. Caculate Monte Carlo (simulation) error.
+4. Calculate Monte Carlo (simulation) error.
     - Calculate a confidence interval around the summary statistic calculated in
     step 3. This confidence interval is a function of the summary statistic itself 
     as well as the number of simulations performed (the size of your sample).
