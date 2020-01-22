@@ -243,6 +243,7 @@ is part of our nature—a part of who we are that does not change.*
 + [Simulation study for simple linear regression](https://rstudio.cloud/spaces/44710/project/816497){target="_blank"}
 (`06/l06_regression.Rmd`)
 + [Hypothesis Testing](https://rstudio.cloud/spaces/44710/project/816497){target="_blank"} (`05/l05_mean.Rmd`)
+-->
 
 #### 2020-01-22
 
@@ -252,9 +253,16 @@ Stay the course and see the beauty of life unfold for you.*
 \- Jeffrey R. Holland ([BYU Devotional March 2, 1999](https://speeches.byu.edu/talks/jeffrey-r-holland_cast-not-away-therefore-your-confidence/){target="_blank"})
 
 + R Moment: [cheatsheets](https://www.rstudio.com/resources/cheatsheets/){target="_blank"}
-+ [Confidence Intervals](https://rstudio.cloud/spaces/44710/project/816497){target="_blank"}
-(`04/l04_ci.Rmd`)
--->
++ Announcemnts:
+  + I'm out of town Monday. A TA will conduct an in-class review for the midterm
+  + Midterm opens Monday at 6:30
+    + Exam administered and submitted through RStudio Cloud
+    + Open notes, open internet - **not open neighbor**
+    + Due 11:59pm on Wednesday (2020-01-29) (No late submissions accepted)
+    + Plan on ~2-3 hours
+    + No class Wednesday (2020-01-29)
++ Confidence Intervals | [`04/l04_ci.Rmd`](https://rstudio.cloud/spaces/44710/project/816497){target="_blank"}
++ Simulation study for simple linear regression | [`06/l06_regression.Rmd`](https://rstudio.cloud/spaces/44710/project/816497){target="_blank"}
 
 #### 2020-01-15
 
