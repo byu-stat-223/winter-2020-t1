@@ -3,7 +3,7 @@ title: "Assignments"
 output: html_document
 ---
 
-#### [Homework 1](https://rstudio.cloud/spaces/44710/project/816498){target="_blank"} | *Due 2020-01-13 at 11:59pm* 
+#### [Homework 1](https://rstudio.cloud/spaces/44710/project/816498){target="_blank"} | *Due 2020-01-13 at 11:59pm* | [Solution](https://rstudio.cloud/spaces/44710/project/816506) 
 #### [Homework 2](https://rstudio.cloud/spaces/44710/project/816499){target="_blank"} | *Due 2020-01-21 at 11:59pm* 
 #### [Homework 3](https://rstudio.cloud/spaces/44710/project/816500){target="_blank"} | *Due 2020-01-27 at 6:30pm* 
 #### Midterm Exam | *Due 2020-01-29 at 11:59pm*
