@@ -254,6 +254,7 @@ Stay the course and see the beauty of life unfold for you.*
 
 + R Moment: [cheatsheets](https://www.rstudio.com/resources/cheatsheets/){target="_blank"}
 + Announcemnts:
+  + RStudio Cloud issues
   + I'm out of town Monday. A TA will conduct an in-class review for the midterm
   + Midterm opens Monday at 6:30
     + Exam administered and submitted through RStudio Cloud
@@ -263,6 +264,7 @@ Stay the course and see the beauty of life unfold for you.*
     + No class Wednesday (2020-01-29)
 + Confidence Intervals | [`04/l04_ci.Rmd`](https://rstudio.cloud/spaces/44710/project/816497){target="_blank"}
 + Simulation study for simple linear regression | [`06/l06_regression.Rmd`](https://rstudio.cloud/spaces/44710/project/816497){target="_blank"}
++ [Homework 3](https://rstudio.cloud/spaces/44710/project/816500){target="_blank"} is assigned (Due 2020-01-27 at 6:30pm)
 
 #### 2020-01-15
 
