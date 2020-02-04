@@ -231,6 +231,9 @@ is part of our nature—a part of who we are that does not change.*
 \- Kevin J. Worthen ([BYU Devotional January 8, 2019](https://speeches.byu.edu/talks/kevin-j-worthen_knowing-who-you-are/){target="_blank"})
 
 + R Moment: [Local Interpretable Model-agnostic Explanations (lime)](https://github.com/thomasp85/lime){target="_blank"}
+
+<iframe src="https://drive.google.com/file/d/1qiNxEq4D4gzR_lzc4EYuaZ8zfrdipXZh/preview" width="640" height="480"></iframe>
+
 + Introduction to [Bootstrap](https://en.wikipedia.org/wiki/Bootstrapping_(statistics)){target="_blank"}
 
 > "Bootstrapping is the practice of estimating properties of an estimator
