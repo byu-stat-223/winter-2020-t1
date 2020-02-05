@@ -139,8 +139,9 @@ this lead?"*
   + [GPA](https://rstudio.cloud/spaces/44710/project/816497){target="_blank"}
 (`10/l10_gpa.Rmd`)
 + [Homework 5](https://rstudio.cloud/spaces/36306/project/664618){target="_blank"} Assigned (Due 2019-12-09 at 11:59pm)
+-->
 
-#### 2019-11-25
+#### 2020-02-05
 
 *Chidi, here's the thing with stuff. You can look at a problem from every angle
 and drive yourself crazy, but sometimes, you just gotta huck a Molotov cocktail
@@ -154,16 +155,15 @@ swamp boat.*
 E09](https://en.wikipedia.org/wiki/The_Good_Place){target="_blank"})
 
 + Announcements
-  + No class on Wednesday
+  + Grading for midterm is ongoing and will be discussed next week
+  + Midterm solutions will be provided next week
 + R Moment: [goodshirt](https://github.com/adam-gruer/goodshirt){target="_blank"}
-+ [Homework 4](https://rstudio.cloud/spaces/36306/project/664614){target="_blank"} Questions
++ [Homework 4](https://rstudio.cloud/spaces/44710/project/816501){target="_blank"} Questions
 + Bootstrap Continued
-  + [Bootstrap coverage](https://rstudio.cloud/spaces/44710/project/816497){target="_blank"}
-(`09/l09_bs_coverage.Rmd`)
-  + [Bootstrap troubles](https://rstudio.cloud/spaces/44710/project/816497){target="_blank"}
-(`09/l09_bs_troubles.Rmd`)
+  + Bootstrap coverage | [`09/l09_bs_coverage.Rmd`](https://rstudio.cloud/spaces/44710/project/816497){target="_blank"}
+  + Bootstrap troubles | [`09/l09_bs_troubles.Rmd`](https://rstudio.cloud/spaces/44710/project/816497){target="_blank"}
 
-
+<!--
 #### 2019-11-18
 
 *Your struggles do not define you, but they can refine you.*
