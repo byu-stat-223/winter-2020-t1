@@ -150,6 +150,8 @@ this lead?"*
 + R Moment: [Plumber](https://www.rplumber.io/){target="_blank"}
 + Introduction to [Permutation Tests](https://en.wikipedia.org/wiki/Resampling_(statistics)#Permutation_tests){target="_blank"}
 ![Hypothesis testing visualization](hypothesis-testing.png)
+
++ [There is only one test](http://allendowney.blogspot.com/2016/06/there-is-still-only-one-test.html){target="_blank"}
   + Brothers | [`10/l10_brothers.Rmd`](https://rstudio.cloud/spaces/44710/project/816497){target="_blank"}
   + Faithful | [`10/l10_faithful.Rmd`](https://rstudio.cloud/spaces/44710/project/816497){target="_blank"}
   + GPA | [`10/l10_gpa.Rmd`](https://rstudio.cloud/spaces/44710/project/816497){target="_blank"}
