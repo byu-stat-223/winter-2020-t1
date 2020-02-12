@@ -135,6 +135,34 @@ less than the promised blessings.*
 - Class canceled for exam
 -->    
 
+#### 2020-02-12
+
+*Considering the Savior’s great promise for peace in this life and eternal life 
+in the life to come, discipleship is a price worth paying. It is a price we cannot 
+afford not to pay. By measure, the requirements of discipleship are much, much 
+less than the promised blessings.*
+
+\- James E. Faust ([GC October 2006](https://www.lds.org/general-conference/2006/10/discipleship?lang=eng){target="_blank"})
+
++ Announcements
+  + Lecture videos for next week will be posted on the course website
+  + Optional TA labs next Tuesday and Wednesday, 3:00-4:30pm in 2104 JKB
+  + Final exam
+    + Exam administered and submitted through RStudio Cloud
+    + Open notes, open internet - **not open neighbor**
+    + Plan on ~2-3 hours
+    + Review in class Monday, February 24
+    + Exam opens ~6:30pm on February 24
+    + Exam due 11:59pm on Wednesday (2020-02-26) (No late submissions accepted)
+    + No class Wendesday (2020-02-26)
++ R Moment: [RStudio Connect](https://rstudio.com/products/connect/){target="_blank"} & [RStudio Quickstart](https://rstudio.com/products/quickstart/){target="_blank"}
++ [Homework 5](https://rstudio.cloud/spaces/44710/project/816502){target="_blank"} Questions
++ Midterm Grades  
+![](exam-1-grade-distribution.png)
++ [Enter the Tidyverse](https://www.tidyverse.org/){target="_blank"}  
+![](data-science-workflow.png)
++ [Tidy Tuesday Data](https://github.com/rfordatascience/tidytuesday){target="_blank"}
+
 #### 2020-02-10
 
 *Our present and our future will be happier if we are all always conscious of
