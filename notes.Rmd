@@ -145,6 +145,7 @@ less than the promised blessings.*
 \- James E. Faust ([GC October 2006](https://www.lds.org/general-conference/2006/10/discipleship?lang=eng){target="_blank"})
 
 + Announcements
+  + [Domo Hackathon](domo-hackathon.png)
   + Lecture videos for next week will be posted on the course website
   + Optional TA labs next Tuesday and Wednesday, 3:00-4:30pm in 2104 JKB
   + Final exam
